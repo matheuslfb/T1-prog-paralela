@@ -37,7 +37,7 @@
 
 ################ Please, change this directory to your working dir.
 
-#PBS -d /home/pp12734/t1
+#PBS -d /home/pp12734/T1-prog-paralela
 
 ################
 
@@ -61,6 +61,7 @@ echo ################
 
 ./solution-seq > dados.txt.1 2> tempos.txt.1
 ./solution-seq > dados.txt.2 2> tempos.txt.2
+./solution-seq > dados.txt.3 2> tempos.txt.3
 ################
 
 echo Final Time is `date`

@@ -13,7 +13,7 @@
 
 ################ Change these parameters according to your requisites
 
-#PBS -l nodes=grad05:ppn=16:cluster-Grad,walltime=00:15:00
+#PBS -l nodes=grad05:ppn=16:cluster-Grad,walltime=01:00:00
 
 ################ Where:
 ################ nodes = number of nodes requested
@@ -37,7 +37,7 @@
 
 ################ Please, change this directory to your working dir.
 
-#PBS -d /home/pp12734/T1-prog-paralela
+#PBS -d /home/pp12734/T1-prog-paralela/src
 
 ################
 
@@ -62,6 +62,8 @@ echo ################
 ./solution-seq > dados.txt.1 2> tempos.txt.1
 ./solution-seq > dados.txt.2 2> tempos.txt.2
 ./solution-seq > dados.txt.3 2> tempos.txt.3
+
 ################
 
 echo Final Time is `date`
+

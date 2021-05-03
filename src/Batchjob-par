@@ -13,7 +13,7 @@
 
 ################ Change these parameters according to your requisites
 
-#PBS -l nodes=grad05:ppn=16:cluster-Grad,walltime=01:00:00
+#PBS -l nodes=grad07:ppn=8:cluster-Grad,walltime=02:00:00
 
 ################ Where:
 ################ nodes = number of nodes requested
@@ -59,9 +59,9 @@ echo ################
 
 ############# If running a sequential or openMP program
 
-./solution-par > dados-par.txt.1 2> tempos-par.txt.1
-./solution-par > dados-par.txt.2 2> tempos-par.txt.2
-./solution-par > dados-par.txt.3 2> tempos-par.txt.3
+./solution-par > dados-par-8threads.txt.1 2> tempos-par-8threads.txt.1
+./solution-par > dados-par-8threads.txt.2 2> tempos-par-8threads.txt.2
+./solution-par > dados-par-8threads.txt.3 2> tempos-par-8threads.txt.3
 
 ################
 

@@ -1,0 +1,25 @@
+#gerado com o comando grep "ELAPSED TIME" * > time.txt
+
+Batchjob-par.o131769: -- ELAPSED TIME =       00:20:33 
+Batchjob-par.o131770: -- ELAPSED TIME =       00:20:19 
+Batchjob-par.o131816: -- ELAPSED TIME =       01:39:52 
+Batchjob-par.o131818: -- ELAPSED TIME =       01:00:31 
+Batchjob-par.o131819: -- ELAPSED TIME =       00:38:43 
+Batchjob-sections.o131833: -- ELAPSED TIME =  00:20:30 
+Batchjob-sections.o131838: -- ELAPSED TIME =  00:40:21 
+Batchjob-sections.o131839: -- ELAPSED TIME =  00:59:57 
+Batchjob-sections.o131840: -- ELAPSED TIME =  01:40:33 
+Batchjob-sections.o131861: -- ELAPSED TIME =  01:25:52 
+Batchjob-sections.o131862: -- ELAPSED TIME =  01:21:27 
+Batchjob-sections.o131863: -- ELAPSED TIME =  01:26:00 
+Batchjob-sections.o131864: -- ELAPSED TIME =  01:25:55 
+Batchjob-sections.o131939: -- ELAPSED TIME =  00:05:37 
+Batchjob-sections.o131953: -- ELAPSED TIME =  00:03:11 
+Batchjob-sections.o131954: -- ELAPSED TIME =  00:00:03 
+Batchjob-sections.o131957: -- ELAPSED TIME =  00:20:34 
+Batchjob-sections.o132019: -- ELAPSED TIME =  00:05:22 
+Batchjob-sections.o132024: -- ELAPSED TIME =  00:20:44 
+Batchjob.o131743: -- ELAPSED TIME =           00:15:17 
+Batchjob.o131748: -- ELAPSED TIME =           00:30:40 
+Batchjob.o131750: -- ELAPSED TIME =           00:52:31 
+   

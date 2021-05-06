@@ -37,25 +37,20 @@ int maximum_sum_subsequence(int *arr, int n, int k)  {
         for (j = 2; j <= k; j++)
             dp[i][j] = -1;
     }
-
-    #pragma omp parallel 
-    {
-        #pragma omp sections 
-        {
-            #pragma omp section
-            for (i = 1; i < n; i++) { 
-                for (j = 0; j < i; j++) { 
-                    if (arr[j] < arr[i]) { 
-                        for (l = 1; l <= k - 1; l++) { 
-                            if (dp[j][l] != -1) { 
+        
+			 
+    for (l = 1; l <= k - 1; l++) { 
+        #pragma omp parallel for lastprivate(j)
+	for (i = 1; i < n; i++) {
+        	for (j = 0; j < i; j++) { 
+                   if (arr[j] < arr[i])  {  
+                          if (dp[j][l] != -1) {
                                 dp[i][l + 1] = MAX(dp[i][l + 1],dp[j][l] + arr[i]); 
-                            } 
-                        } 
+                           } 
                     } 
-                }
-            } 
-        }
-    }
+               } 
+          }
+     } 
     
 
     for (i = 0; i < n; i++) { 
